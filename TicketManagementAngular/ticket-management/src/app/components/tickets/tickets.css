@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ticket-container {
+  background: #ffffff;
+  padding: 25px 30px;
+  border-radius: 14px;
+  width: 95%;
+  max-width: 1100px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2d3748;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+table {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+th {
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+  padding: 14px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+td {
+  padding: 12px;
+  font-size: 14px;
+  color: #374151;
+  text-align: center;
+}
+
+tr:hover {
+  background-color: #e0e7ff;
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+} 
+
+.sev-high {
+  color: white;
+  background-color: #dc2626;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+.sev-medium {
+  color: white;
+  background-color: #f59e0b;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+.sev-low {
+  color: white;
+  background-color: #16a34a;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+.sev-critical {
+  color: white;
+  background-color: #7f1d1d;
+  font-weight: bold;  
+  border-radius: 10px;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+.status-open {
+  color: white;
+  background-color: #2563eb;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.status-inprogress {
+  color: white;
+  background-color: #f59e0b;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.status-resolved {
+  color: white;
+  background-color: #16a34a;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 6px 12px;
+  text-align: center;
+}
+
+.status-closed {
+  color: white;
+  background-color: #6b7280;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 6px 12px;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+<h2>Tickets</h2>
+
+<table border="1">
+  <tr>
+    <th>ID</th>
+    <th>Short Description</th>
+    <th>Description</th>
+    <th>Created Date</th>
+    <th>Severity</th>
+    <th>Target Date</th>
+    <th>Status</th>
+  </tr>
+
+  <tr *ngFor="let t of tickets()">
+    <td>{{ t.id }}</td>
+    <td>{{ t.shortDescription | capitalizeFirst}}</td>
+    <td>{{ t.description | capitalizeFirst}}</td>
+    <td>{{ t.createdDate | date:'mediumDate' }}</td>
+    <td
+      [ngClass]="{
+        'sev-high': t.severity === 'High',
+        'sev-medium': t.severity === 'Medium',
+        'sev-low': t.severity === 'Low',
+        'sev-critical': t.severity === 'Critical'
+      }"
+    >
+      {{ t.severity }}
+    </td>
+
+    <td>{{ t.targetDate | date:'mediumDate' }}</td>
+
+    <td
+      [ngClass]="{
+        'status-open': t.status === 'Open',
+        'status-inprogress': t.status === 'In Progress',
+        'status-resolved': t.status === 'Resolved',
+        'status-closed': t.status === 'Closed'
+      }"
+    >
+      {{ t.status }}
+    </td>
+  </tr>
+</table>
