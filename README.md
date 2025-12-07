@@ -5,10 +5,9 @@
 
 ### API Results Screenshot
 
-<img width="940" height="254" alt="image" src="https://github.com/user-attachments/assets/598d04d0-65e9-477b-bd92-209c5908267d" />
+<img width="940" height="323" alt="image" src="https://github.com/user-attachments/assets/fde8f8dc-416b-43f2-8a0a-b2abfa21b44b" />
 
-<img width="940" height="625" alt="image" src="https://github.com/user-attachments/assets/884e05b5-3d7c-40de-8d55-d112d25cb2dc" />
 
 ### Angular Application Screenshot 
 
-<img width="940" height="346" alt="image" src="https://github.com/user-attachments/assets/124211c7-7d49-4cc4-93e0-8e78a7f938c6" />
+<img width="940" height="330" alt="image" src="https://github.com/user-attachments/assets/b2a5e085-5693-4d5e-93b7-435c461a2a33" />
