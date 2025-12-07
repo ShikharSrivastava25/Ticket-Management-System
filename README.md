@@ -1,6 +1,7 @@
-The TicketApi folder contains the asp.net core web api, which is responsible for GET request. 
+- The TicketApi folder contains the asp.net core web api, which is responsible for GET request. 
 <br>
-The TicketManagementAngular/ticket-management holds the angular application, which interacts with the web api to get the data and display it. 
+
+- The TicketManagementAngular/ticket-management holds the angular application, which interacts with the web api to get the data and display it. 
 
 ### API Results Screenshot
 
