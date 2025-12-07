@@ -16,8 +16,8 @@ namespace TicketApi.Controllers
                 new Ticket
                 {
                     Id = 1,
-                    ShortDescription = "Login Issue",
-                    Description = "user unable to login with valid credentials.",
+                    ShortDescription = "Invalid coupon",
+                    Description = "user unable to apply coupon",
                     CreatedDate = DateTime.Now.AddDays(-3),
                     Severity = "High",
                     TargetDate = DateTime.Now.AddDays(2),
@@ -28,7 +28,7 @@ namespace TicketApi.Controllers
                 {
                     Id = 2,
                     ShortDescription = "Page Load Error",
-                    Description = "home page fails to load.",
+                    Description = "The page buffers and doesn't load",
                     CreatedDate = DateTime.Now.AddDays(-5),
                     Severity = "Medium",
                     TargetDate = DateTime.Now.AddDays(5),
